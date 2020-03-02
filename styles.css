@@ -61,31 +61,6 @@ a:hover {
   transition: all .5s;
 }
 
-.bullet {
-  list-style: none;
-  padding-left: 0;
-}
-.bullet li {
-  position: relative;
-  padding-left: 20px;
-}
-.bullet li:before {
-  content: '';
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  background-image: url('images/bullet.png');
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* .nav a:hover {
-  color: rgb(47, 202, 99);
-} */
-
 header {
   text-align: center;
   background: url('images/lasVegas.jpg') no-repeat top center ;
@@ -133,8 +108,6 @@ header .profile-image:hover {
 .card:hover {
   border-color: rgb(47, 202, 99);
 }
-
-
 
 ul.skills {
   padding: 0;
@@ -240,3 +213,25 @@ a.social:hover {
 
 }
 
+/* CSS code that modifies bullets.  http://css-workshop.com/css-ul-custom-bullet-style-with-image/ */
+
+.bullet {
+  list-style: none;
+  padding-left: 0;
+}
+.bullet li {
+  position: relative;
+  padding-left: 20px;
+}
+.bullet li:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url('images/bullet.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
