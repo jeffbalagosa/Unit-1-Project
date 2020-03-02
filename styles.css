@@ -12,6 +12,12 @@ body {
   background: #514C37;
 }
 
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+}
+
 /* Link Styles */
 
 a {
