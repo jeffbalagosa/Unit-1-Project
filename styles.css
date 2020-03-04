@@ -29,7 +29,7 @@ a:hover {
   color: #73eaf3;
 }
 
-/* Align Styles for Centering items Within section-boxes Attributed to: https://www.w3schools.com/howto/howto_css_image_center.asp */
+/* Align Styles for Centering items Within cards Attributed to: https://www.w3schools.com/howto/howto_css_image_center.asp */
 
 .center {
   display: block;
@@ -40,7 +40,7 @@ a:hover {
 
 /* Section Styles */
 
-.top-nav-bar {
+.nav {
   width: 100%;
   background: #3a3331;
   min-height: 30px;
@@ -49,7 +49,7 @@ a:hover {
   text-align: center;
 }
 
-.nav {
+.nav-list {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -58,17 +58,17 @@ a:hover {
   padding: 0;
 }
 
-.nav .name {
+.nav-list .name {
   display: block;
   margin-right: auto;
   color: white;
 }
 
-.nav li {
+.nav-list li {
   padding: 5px 10px 10px 10px;
 }
 
-.nav a {
+.nav-list a {
   transition: all .5s;
 }
 
@@ -111,7 +111,7 @@ header .profile-image:hover {
   color: yellow;
 }
 
-.section-box {
+.article {
   margin: 30px;
   padding: 20px 40px 40px;
   flex: 1;
@@ -123,7 +123,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.section-box:hover {
+.article:hover {
   border-color: rgb(47, 202, 99);
 }
 
@@ -214,7 +214,7 @@ a.social:hover {
     min-height: 470px;
   }
 
-  .nav {
+  .nav-list {
     max-width: 1200px;
     padding: 0 30px;
   }
