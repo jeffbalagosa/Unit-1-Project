@@ -40,7 +40,7 @@ a:hover {
 
 /* Section Styles */
 
-.nav {
+.main-nav {
   width: 100%;
   background: #3a3331;
   min-height: 30px;
@@ -49,7 +49,7 @@ a:hover {
   text-align: center;
 }
 
-.nav-list {
+.nav {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -58,17 +58,17 @@ a:hover {
   padding: 0;
 }
 
-.nav-list .name {
+.nav .name {
   display: block;
   margin-right: auto;
   color: white;
 }
 
-.nav-list li {
+.nav li {
   padding: 5px 10px 10px 10px;
 }
 
-.nav-list a {
+.nav a {
   transition: all .5s;
 }
 
@@ -111,7 +111,7 @@ header .profile-image:hover {
   color: yellow;
 }
 
-.article {
+.card {
   margin: 30px;
   padding: 20px 40px 40px;
   flex: 1;
@@ -123,7 +123,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.article:hover {
+.card:hover {
   border-color: rgb(47, 202, 99);
 }
 
@@ -214,7 +214,7 @@ a.social:hover {
     min-height: 470px;
   }
 
-  .nav-list {
+  .nav {
     max-width: 1200px;
     padding: 0 30px;
   }
